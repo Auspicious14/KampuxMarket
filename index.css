@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+body {
+    /* background: rgb(70, 70, 233); */
+    /* background: orange; */
+    background: url(./images/firmbee-com-SpVHcbuKi6E-unsplash.jpg);
+    /* opacity: .9; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: .5rem;
+}
+
+header .notification a img{
+    height: 20px;
+    margin-right: 2rem;
+}
+
+.logo {
+    display: inline-flex;
+}
+.logo h2{
+    /* color: rgb(70, 70, 233); */
+    color: orange;
+}
+
+span {
+    color: black;
+}
+
+.logo p {
+    color: rgb(70, 70, 233);;
+}
+
+nav a, #sign-up {
+    margin: 0 1.5rem 0 0;
+    padding: .3rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* background: rgb(70, 70, 233); */
+    background: orange;
+    font-size: .8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.fa {
+    color: orange;
+    margin: 0 1.5rem 0 0;
+    padding: .3rem 1rem;
+    cursor: pointer;
+}
+nav a, #sign-up:hover {
+    transform: rotateX(360deg);
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+section .left {
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+section h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+}
+
+#hero {
+    text-transform: uppercase;
+    color: orange;
+}
+
+section p {
+
+    margin-top: 3rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+input {
+    margin-top: 2rem;
+    height: 30px;
+    width: 400px;
+    padding-left: .5rem;
+    border-radius: .3rem;
+    outline: none;
+    border: 1px solid white;
+}
+
+#search-button {
+    padding: .5rem 1rem;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    transition: ease-in-out 2s;
+    color: red;
+    transform: rotateX(360deg);
+}
+
+.right img {
+    position: relative;
+    height: 500px;
+    /* top: 70px; */
+}
+
+
